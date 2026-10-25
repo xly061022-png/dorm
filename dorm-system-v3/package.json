@@ -1,0 +1,35 @@
+{
+  "name": "dorm-inspection-system",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "admin": "node src/cli.js user",
+    "backup": "node src/cli.js backup",
+    "test": "npm run test:unit && npm run test:api",
+    "test:unit": "node --test test/unit/*.test.js",
+    "test:api": "node --test test/system.test.js",
+    "test:e2e": "playwright test",
+    "lint": "eslint . --max-warnings=0",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "check": "npm run format:check && npm run lint && npm test",
+    "check:all": "npm run check && npm run test:e2e",
+    "prepare": "node scripts/install-hooks.js"
+  },
+  "dependencies": {
+    "express": "5.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.64.1",
+    "eslint": "10.13.0",
+    "globals": "17.13.0",
+    "prettier": "3.9.10"
+  }
+}

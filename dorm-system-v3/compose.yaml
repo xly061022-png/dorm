@@ -1,0 +1,22 @@
+name: dorm-inspection-v3
+services:
+  app:
+    build: .
+    # Linux server: share host loopback with the existing nginx.
+    # Node always listens on 127.0.0.1; no public port mapping.
+    network_mode: host
+    restart: unless-stopped
+    init: true
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DATA_DIR: /app/storage
+    volumes:
+      - dorm-data:/app/storage
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+volumes:
+  dorm-data:

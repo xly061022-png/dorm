@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#3348bc" />
+    <title>宿舍卫生安全检查 · 电子信息与物理学院</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <section id="login-view" class="login-layout">
+      <div class="login-intro">
+        <span class="brand-mark">宿</span>
+        <p class="eyebrow">电子信息与物理学院</p>
+        <h1>让每一次检查<br />都有据可查。</h1>
+        <p>宿舍卫生与安全检查系统<br />现场评分 · 照片取证 · 分页查询</p>
+      </div>
+      <form id="login-form" class="login-card">
+        <p class="eyebrow">欢迎回来</p>
+        <h2>登录检查系统</h2>
+        <p class="muted">请使用管理员分配的账号登录。</p>
+        <label>账号<input name="username" autocomplete="username" required maxlength="40" /></label>
+        <label
+          >密码<input
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            required
+            maxlength="128"
+        /></label>
+        <p id="login-error" class="error-text" role="alert"></p>
+        <button class="primary wide" type="submit">登录</button>
+        <p class="fine">忘记密码请联系管理员。首次部署需在服务器创建管理员账号。</p>
+      </form>
+    </section>
+    <div id="app-view" hidden>
+      <header class="site-header">
+        <div class="header-inner">
+          <div class="brand">
+            <span class="brand-mark">宿</span>
+            <div><strong>宿舍卫生安全检查</strong><small>电子信息与物理学院</small></div>
+          </div>
+          <div class="account">
+            <span id="account-name"></span><button data-action="password">修改密码</button
+            ><button data-action="logout">退出</button>
+          </div>
+        </div>
+      </header>
+      <main class="shell">
+        <div class="workspace-heading">
+          <div>
+            <p class="eyebrow">宿舍管理工作台</p>
+            <h1 id="page-title">现场检查</h1>
+          </div>
+          <label class="period-switch"
+            >当前学期<select id="period-select" aria-label="当前学期"></select
+          ></label>
+        </div>
+        <nav class="tabs" aria-label="功能导航">
+          <button data-tab="inspect" class="active">现场检查</button
+          ><button data-tab="history">历史记录</button><button data-tab="missing">未查宿舍</button
+          ><button data-tab="admin" id="admin-tab" hidden>系统管理</button>
+        </nav>
+        <div id="notice" class="notice" role="status" hidden></div>
+        <section id="view-inspect" class="view">
+          <form id="inspection-form">
+            <div class="section-heading">
+              <div>
+                <h2 id="inspection-title">新增检查记录</h2>
+                <p class="muted">先选择宿舍，再按十项标准填写评分并上传现场照片。</p>
+              </div>
+              <button type="button" data-action="reset-inspection">清空 / 取消编辑</button>
+            </div>
+            <div class="inspection-layout">
+              <div class="form-stack">
+                <section class="card">
+                  <div class="card-title">
+                    <span class="step">01</span>
+                    <h3>检查信息</h3>
+                  </div>
+                  <div class="fields three">
+                    <label>检查日期<input id="inspection-date" type="date" required /></label
+                    ><label>检查周次<select id="inspection-week" required></select></label
+                    ><label
+                      >检查人姓名<input id="inspector" required maxlength="80" autocomplete="name"
+                    /></label>
+                  </div>
+                  <p class="fine" id="week-hint"></p>
+                </section>
+                <section class="card">
+                  <div class="card-title">
+                    <span class="step">02</span>
+                    <h3>选择宿舍</h3>
+                  </div>
+                  <div class="fields two">
+                    <label>年级<select id="dorm-grade" required></select></label
+                    ><label>宿舍类型<select id="dorm-gender" required></select></label
+                    ><label>楼栋<select id="dorm-building" required></select></label
+                    ><label>房间 / 班级<select id="dorm-select" required></select></label>
+                  </div>
+                  <p id="dorm-summary" class="info-strip">请选择年级、类型、楼栋和宿舍。</p>
+                </section>
+                <section class="card">
+                  <div class="card-title">
+                    <span class="step">03</span>
+                    <h3>卫生与安全评分</h3>
+                  </div>
+                  <p class="fine">
+                    每项0—10分，分数越高表示情况越好。初始为0分，请逐项检查后评分。
+                  </p>
+                  <div id="criteria-list"></div>
+                </section>
+                <section class="card">
+                  <div class="card-title">
+                    <span class="step">04</span>
+                    <h3>现场照片</h3>
+                  </div>
+                  <p class="fine">
+                    全景照片必传；可附3张特写。选择图片后自动压缩，支持JPEG、PNG、WebP。
+                  </p>
+                  <div id="photo-fields" class="photo-grid"></div>
+                </section>
+              </div>
+              <aside class="score-card">
+                <p class="eyebrow">本次检查总分</p>
+                <div class="total"><span id="total-score">0</span><small>/ 100</small></div>
+                <span id="total-level" class="badge bad">不合格</span>
+                <div class="score-rules">
+                  <p>90—100分 · 优秀</p>
+                  <p>80—89分 · 良好</p>
+                  <p>60—79分 · 合格</p>
+                  <p>0—59分 · 不合格</p>
+                </div>
+                <button id="save-inspection" class="primary wide" type="submit">
+                  保存检查记录
+                </button>
+                <p class="fine">提交后可在历史记录中查看。检查员仅能修改本人创建的记录。</p>
+              </aside>
+            </div>
+          </form>
+        </section>
+        <section id="view-history" class="view" hidden>
+          <div class="card">
+            <div class="section-heading">
+              <div>
+                <h2>检查历史记录</h2>
+                <p class="muted">查看检查结果、评分明细及现场照片。</p>
+              </div>
+              <button data-action="export-history">导出筛选结果 CSV</button>
+            </div>
+            <div id="history-filters" class="filters"></div>
+            <p id="history-status" class="list-status" role="status"></p>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>周次 / 日期</th>
+                    <th>宿舍</th>
+                    <th>年级 / 班级</th>
+                    <th>总分 / 等级</th>
+                    <th>检查人</th>
+                    <th>操作</th>
+                  </tr>
+                </thead>
+                <tbody id="history-body"></tbody>
+              </table>
+            </div>
+            <div id="history-pager" class="pager"></div>
+          </div>
+        </section>
+        <section id="view-missing" class="view" hidden>
+          <div class="card">
+            <div class="section-heading">
+              <div>
+                <h2>未检查宿舍</h2>
+                <p class="muted">按学期和周次检查遗漏，支持直接进入打分。</p>
+              </div>
+              <button data-action="export-missing">导出未查名单 CSV</button>
+            </div>
+            <div id="missing-filters" class="filters"></div>
+            <p id="missing-status" class="list-status" role="status"></p>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>年级</th>
+                    <th>校区 / 楼栋</th>
+                    <th>房间</th>
+                    <th>类型</th>
+                    <th>班级</th>
+                    <th>操作</th>
+                  </tr>
+                </thead>
+                <tbody id="missing-body"></tbody>
+              </table>
+            </div>
+            <div id="missing-pager" class="pager"></div>
+          </div>
+        </section>
+        <section id="view-admin" class="view" hidden>
+          <section class="card">
+            <div class="section-heading">
+              <div>
+                <h2>账号管理</h2>
+                <p class="muted">
+                  检查员可以查看、导出记录和修改自己的记录；管理员可管理全部记录与账号。
+                </p>
+              </div>
+              <button class="primary" data-action="new-user">新增账号</button>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>账号</th>
+                    <th>姓名</th>
+                    <th>角色</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                  </tr>
+                </thead>
+                <tbody id="users-body"></tbody>
+              </table>
+            </div>
+          </section>
+          <section class="card">
+            <h2>学期设置</h2>
+            <p class="muted">每学期独立查询。开始日期为第1周周一，旧学期记录仍可查看。</p>
+            <div id="period-list"></div>
+            <form id="period-form" class="fields period-form">
+              <label
+                >学期名称<input
+                  name="name"
+                  required
+                  maxlength="80"
+                  placeholder="2026—2027学年第二学期" /></label
+              ><label>第1周周一<input name="start" type="date" required /></label
+              ><label
+                >总周数<input
+                  name="weeks"
+                  type="number"
+                  min="1"
+                  max="52"
+                  value="20"
+                  required /></label
+              ><button type="submit" class="primary">新增并设为当前学期</button>
+            </form>
+          </section>
+          <section class="card">
+            <div class="section-heading">
+              <h2>操作日志</h2>
+              <button data-action="audit-refresh">刷新</button>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>时间</th>
+                    <th>账号</th>
+                    <th>操作</th>
+                    <th>对象</th>
+                  </tr>
+                </thead>
+                <tbody id="audit-body"></tbody>
+              </table>
+            </div>
+            <div id="audit-pager" class="pager"></div>
+          </section>
+        </section>
+        <footer>电子信息与物理学院 · 宿舍卫生安全检查系统 <span>v3.0</span></footer>
+      </main>
+    </div>
+    <dialog id="detail-dialog">
+      <div class="dialog-heading">
+        <h2 id="detail-title">检查详情</h2>
+        <button data-close="detail-dialog" aria-label="关闭详情">关闭</button>
+      </div>
+      <div id="detail-content"></div>
+    </dialog>
+    <dialog id="user-dialog">
+      <form id="user-form">
+        <div class="dialog-heading">
+          <h2 id="user-form-title">新增账号</h2>
+          <button type="button" data-close="user-dialog">关闭</button>
+        </div>
+        <input name="id" type="hidden" /><label
+          >账号<input
+            name="username"
+            required
+            pattern="[A-Za-z0-9_-]{3,40}"
+            maxlength="40"
+            autocomplete="off" /></label
+        ><label>姓名<input name="name" required maxlength="80" /></label
+        ><label
+          >角色<select name="role">
+            <option value="inspector">检查员</option>
+            <option value="admin">管理员</option>
+          </select></label
+        ><label
+          >状态<select name="enabled">
+            <option value="true">启用</option>
+            <option value="false">停用</option>
+          </select></label
+        ><label
+          >密码<input
+            name="password"
+            type="password"
+            minlength="12"
+            maxlength="128"
+            autocomplete="new-password"
+        /></label>
+        <p class="fine">
+          新增账号必填，至少12位；编辑时留空表示保留密码。保存账号修改会使该账号已有登录失效。
+        </p>
+        <p class="form-error error-text" role="alert"></p>
+        <button class="primary wide" type="submit">保存账号</button>
+      </form>
+    </dialog>
+    <dialog id="password-dialog">
+      <form id="password-form">
+        <div class="dialog-heading">
+          <h2>修改密码</h2>
+          <button type="button" data-close="password-dialog">关闭</button>
+        </div>
+        <label
+          >新密码<input
+            name="password"
+            type="password"
+            required
+            minlength="12"
+            maxlength="128"
+            autocomplete="new-password" /></label
+        ><label
+          >再次输入<input
+            name="confirm"
+            type="password"
+            required
+            minlength="12"
+            maxlength="128"
+            autocomplete="new-password"
+        /></label>
+        <p class="form-error error-text" role="alert"></p>
+        <button class="primary wide">修改并重新登录</button>
+      </form>
+    </dialog>
+  </body>
+</html>

@@ -1,0 +1,4250 @@
+[
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "208",
+    "gender": "男",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "209",
+    "gender": "男",
+    "className": "2023电子信息工程3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "212",
+    "gender": "男",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "315",
+    "gender": "男",
+    "className": "2023自动化1班；2023通信工程2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "321",
+    "gender": "男",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "323",
+    "gender": "男",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "405",
+    "gender": "男",
+    "className": "2023自动化2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "407",
+    "gender": "男",
+    "className": "2023通信工程1班；2023通信工程2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "411",
+    "gender": "男",
+    "className": "2023通信工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "421",
+    "gender": "男",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "502",
+    "gender": "男",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "503",
+    "gender": "男",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "511",
+    "gender": "男",
+    "className": "2023通信工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "514",
+    "gender": "男",
+    "className": "2023电子信息工程3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "523",
+    "gender": "男",
+    "className": "2023电子信息工程3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "109",
+    "gender": "男",
+    "className": "2023电子信息工程3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "113",
+    "gender": "男",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "115",
+    "gender": "男",
+    "className": "2023自动化3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "116",
+    "gender": "男",
+    "className": "2023自动化3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "509",
+    "gender": "男",
+    "className": "2023自动化1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "514",
+    "gender": "男",
+    "className": "2023自动化3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "503",
+    "gender": "男",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "504",
+    "gender": "男",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "505",
+    "gender": "男",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "506",
+    "gender": "男",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "507",
+    "gender": "男",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "509",
+    "gender": "男",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "510",
+    "gender": "男",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "511",
+    "gender": "男",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "512",
+    "gender": "男",
+    "className": "2023电子信息工程2班；2023电子信息工程3班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "513",
+    "gender": "男",
+    "className": "2023电子信息工程3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "514",
+    "gender": "男",
+    "className": "2023电子信息工程3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "515",
+    "gender": "男",
+    "className": "2023电子信息工程3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "516",
+    "gender": "男",
+    "className": "2023电子信息工程3班；2023电子信息工程4班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "517",
+    "gender": "男",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "519",
+    "gender": "男",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "521",
+    "gender": "男",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "523",
+    "gender": "男",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "601",
+    "gender": "男",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "110",
+    "gender": "男",
+    "className": "2023通信工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "112",
+    "gender": "男",
+    "className": "2023通信工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "113",
+    "gender": "男",
+    "className": "2023通信工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "114",
+    "gender": "男",
+    "className": "2023通信工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "115",
+    "gender": "男",
+    "className": "2023通信工程1班；2023通信工程2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "116",
+    "gender": "男",
+    "className": "2023通信工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "117",
+    "gender": "男",
+    "className": "2023通信工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "121",
+    "gender": "男",
+    "className": "2023自动化1班；2023通信工程2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "123",
+    "gender": "男",
+    "className": "2023自动化1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "124",
+    "gender": "男",
+    "className": "2023自动化1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "201",
+    "gender": "男",
+    "className": "2023自动化1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "202",
+    "gender": "男",
+    "className": "2023自动化1班；2023自动化2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "203",
+    "gender": "男",
+    "className": "2023自动化2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "204",
+    "gender": "男",
+    "className": "2023自动化2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "205",
+    "gender": "男",
+    "className": "2023自动化2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "206",
+    "gender": "男",
+    "className": "2023自动化2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "207",
+    "gender": "男",
+    "className": "2023自动化2班；2023自动化3班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "208",
+    "gender": "男",
+    "className": "2023自动化3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "210",
+    "gender": "男",
+    "className": "2023自动化3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "211",
+    "gender": "男",
+    "className": "2023自动化3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "212",
+    "gender": "男",
+    "className": "2023自动化3班；2023自动化4班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "213",
+    "gender": "男",
+    "className": "2023自动化3班；2023自动化4班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "214",
+    "gender": "男",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "215",
+    "gender": "男",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "216",
+    "gender": "男",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "217",
+    "gender": "男",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "219",
+    "gender": "男",
+    "className": "2023自动化3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "221",
+    "gender": "男",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "223",
+    "gender": "男",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "304",
+    "gender": "男",
+    "className": "2023自动化3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "314",
+    "gender": "男",
+    "className": "2023通信工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "316",
+    "gender": "男",
+    "className": "2023通信工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY07（原20栋）",
+    "dorm": "108",
+    "gender": "男",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY07（原20栋）",
+    "dorm": "115",
+    "gender": "男",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY07（原20栋）",
+    "dorm": "502",
+    "gender": "男",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY07（原20栋）",
+    "dorm": "505",
+    "gender": "男",
+    "className": "2023自动化3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY07（原20栋）",
+    "dorm": "604",
+    "gender": "男",
+    "className": "2023自动化2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY10（原19栋）",
+    "dorm": "301",
+    "gender": "男",
+    "className": "2023自动化1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY10（原19栋）",
+    "dorm": "307",
+    "gender": "男",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY10（原19栋）",
+    "dorm": "319",
+    "gender": "男",
+    "className": "2023电子信息工程3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY15（原17栋）",
+    "dorm": "1-604",
+    "gender": "男",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY15（原17栋）",
+    "dorm": "1-609",
+    "gender": "男",
+    "className": "2023电子信息工程3班；2023自动化2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY05（原18栋）",
+    "dorm": "412",
+    "gender": "男",
+    "className": "2022电子信息工程2班；2023通信工程1班；2023通信工程2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY05（原18栋）",
+    "dorm": "413",
+    "gender": "男",
+    "className": "2023电子信息工程2班；2023电子信息工程4班；2023自动化1班；2023自动化3班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "315",
+    "gender": "男",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "318",
+    "gender": "男",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "320",
+    "gender": "男",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "332",
+    "gender": "男",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "338",
+    "gender": "男",
+    "className": "2023应用物理学1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "432",
+    "gender": "男",
+    "className": "2023通信工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "511",
+    "gender": "男",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "613",
+    "gender": "男",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY21（原9栋）",
+    "dorm": "315",
+    "gender": "男",
+    "className": "2023自动化1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY21（原9栋）",
+    "dorm": "504",
+    "gender": "男",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "113",
+    "gender": "男",
+    "className": "2023应用物理学1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "114",
+    "gender": "男",
+    "className": "2023应用物理学1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "115",
+    "gender": "男",
+    "className": "2023应用物理学1班；2023应用物理学2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "118",
+    "gender": "男",
+    "className": "2023应用物理学1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "119",
+    "gender": "男",
+    "className": "2023应用物理学1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "120",
+    "gender": "男",
+    "className": "2023应用物理学1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "121",
+    "gender": "男",
+    "className": "2023应用物理学1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "206",
+    "gender": "男",
+    "className": "2023应用物理学1班；2023应用物理学2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "208",
+    "gender": "男",
+    "className": "2023应用物理学2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "209",
+    "gender": "男",
+    "className": "2023应用物理学2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "210",
+    "gender": "男",
+    "className": "2023应用物理学2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "211",
+    "gender": "男",
+    "className": "2023应用物理学2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "212",
+    "gender": "男",
+    "className": "2023应用物理学2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "213",
+    "gender": "男",
+    "className": "2023应用物理学2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY22（原10栋）",
+    "dorm": "512",
+    "gender": "男",
+    "className": "2023自动化1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY24（原4栋）",
+    "dorm": "2-602B",
+    "gender": "女",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY19（原11栋）",
+    "dorm": "2-102C",
+    "gender": "女",
+    "className": "2023自动化1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY21（原7栋）",
+    "dorm": "1-201A",
+    "gender": "女",
+    "className": "2023自动化3班；2023自动化4班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY21（原7栋）",
+    "dorm": "1-201B",
+    "gender": "女",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY21（原7栋）",
+    "dorm": "1-201C",
+    "gender": "女",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY21（原7栋）",
+    "dorm": "1-602D",
+    "gender": "女",
+    "className": "2023通信工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY21（原7栋）",
+    "dorm": "2-301C",
+    "gender": "女",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY22（原8栋）",
+    "dorm": "2-102B",
+    "gender": "女",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY23（原9栋）",
+    "dorm": "1-101C",
+    "gender": "女",
+    "className": "2023电子信息工程4班；2023通信工程1班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY23（原9栋）",
+    "dorm": "1-502A",
+    "gender": "女",
+    "className": "2023自动化3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "1-402A",
+    "gender": "女",
+    "className": "2023通信工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "1-402B",
+    "gender": "女",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "1-402C",
+    "gender": "女",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "1-402D",
+    "gender": "女",
+    "className": "2023电子信息工程2班；2023自动化1班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "1-402E",
+    "gender": "女",
+    "className": "2023电子信息工程2班；2023电子信息工程3班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "1-501A",
+    "gender": "女",
+    "className": "2023电子信息工程3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "1-501B",
+    "gender": "女",
+    "className": "2023电子信息工程3班；2023电子信息工程4班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "1-501C",
+    "gender": "女",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "1-602A",
+    "gender": "女",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "2-402D",
+    "gender": "女",
+    "className": "2023通信工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "2-501A",
+    "gender": "女",
+    "className": "2023通信工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "2-501B",
+    "gender": "女",
+    "className": "2023通信工程1班；2023通信工程2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "2-501D",
+    "gender": "女",
+    "className": "2023通信工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "2-501E",
+    "gender": "女",
+    "className": "2023通信工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "2-502A",
+    "gender": "女",
+    "className": "2023自动化1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "2-601A",
+    "gender": "女",
+    "className": "2023自动化1班；2023自动化2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "2-601D",
+    "gender": "女",
+    "className": "2023自动化2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "东园",
+    "building": "DY25（原5栋）",
+    "dorm": "2-601E",
+    "gender": "女",
+    "className": "2023自动化3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY01（原22栋）",
+    "dorm": "216",
+    "gender": "女",
+    "className": "2023电子信息工程2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY01（原22栋）",
+    "dorm": "522",
+    "gender": "女",
+    "className": "2023电子信息工程4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY01（原22栋）",
+    "dorm": "710",
+    "gender": "女",
+    "className": "2023电子信息工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY01（原22栋）",
+    "dorm": "801",
+    "gender": "女",
+    "className": "2023电子信息工程3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY01（原22栋）",
+    "dorm": "903",
+    "gender": "女",
+    "className": "2023通信工程1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY18（原3栋）",
+    "dorm": "424",
+    "gender": "女",
+    "className": "2023应用物理学1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY18（原3栋）",
+    "dorm": "516",
+    "gender": "女",
+    "className": "2023应用物理学1班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY18（原3栋）",
+    "dorm": "517",
+    "gender": "女",
+    "className": "2023应用物理学1班；2023应用物理学2班（混住）"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY18（原3栋）",
+    "dorm": "518",
+    "gender": "女",
+    "className": "2023应用物理学2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY18（原3栋）",
+    "dorm": "519",
+    "gender": "女",
+    "className": "2023应用物理学2班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY19（原4栋）",
+    "dorm": "312",
+    "gender": "女",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY19（原4栋）",
+    "dorm": "313",
+    "gender": "女",
+    "className": "2023自动化4班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY19（原4栋）",
+    "dorm": "317",
+    "gender": "女",
+    "className": "2023电子信息工程3班"
+  },
+  {
+    "grade": "2023级",
+    "campus": "西园",
+    "building": "XY19（原4栋）",
+    "dorm": "329",
+    "gender": "女",
+    "className": "2023通信工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY01/02（原26/27栋）",
+    "dorm": "108",
+    "gender": "男",
+    "className": "2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY01/02（原26/27栋）",
+    "dorm": "125",
+    "gender": "男",
+    "className": "2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "306",
+    "gender": "男",
+    "className": "2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY05（原22栋）",
+    "dorm": "319",
+    "gender": "男",
+    "className": "2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY12（原17栋）",
+    "dorm": "220",
+    "gender": "男",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY12（原17栋）",
+    "dorm": "221",
+    "gender": "男",
+    "className": "2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY12（原17栋）",
+    "dorm": "317",
+    "gender": "男",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY12（原17栋）",
+    "dorm": "319",
+    "gender": "男",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY12（原17栋）",
+    "dorm": "404",
+    "gender": "男",
+    "className": "2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY12（原17栋）",
+    "dorm": "503",
+    "gender": "男",
+    "className": "2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY12（原17栋）",
+    "dorm": "513",
+    "gender": "男",
+    "className": "2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY12（原17栋）",
+    "dorm": "519",
+    "gender": "男",
+    "className": "2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY12（原17栋）",
+    "dorm": "605",
+    "gender": "男",
+    "className": "2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY12（原17栋）",
+    "dorm": "607",
+    "gender": "男",
+    "className": "2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY12（原17栋）",
+    "dorm": "620",
+    "gender": "男",
+    "className": "2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY13（原16栋）",
+    "dorm": "206",
+    "gender": "男",
+    "className": "2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY13（原16栋）",
+    "dorm": "621",
+    "gender": "男",
+    "className": "2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "105",
+    "gender": "男",
+    "className": "2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "106",
+    "gender": "男",
+    "className": "2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "107",
+    "gender": "男",
+    "className": "2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "108",
+    "gender": "男",
+    "className": "2024电子信息工程1班 / 2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "109",
+    "gender": "男",
+    "className": "2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "110",
+    "gender": "男",
+    "className": "2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "111",
+    "gender": "男",
+    "className": "2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "112",
+    "gender": "男",
+    "className": "2024电子信息工程2班 / 2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "113",
+    "gender": "男",
+    "className": "2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "114",
+    "gender": "男",
+    "className": "2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "115",
+    "gender": "男",
+    "className": "2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "116",
+    "gender": "男",
+    "className": "2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "118",
+    "gender": "男",
+    "className": "2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "119",
+    "gender": "男",
+    "className": "2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "120",
+    "gender": "男",
+    "className": "2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "121",
+    "gender": "男",
+    "className": "2024通信工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "122",
+    "gender": "男",
+    "className": "2024通信工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "123",
+    "gender": "男",
+    "className": "2024通信工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "124",
+    "gender": "男",
+    "className": "2024通信工程1班；2024通信工程2班（混住）"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "125",
+    "gender": "男",
+    "className": "2024通信工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "126",
+    "gender": "男",
+    "className": "2024通信工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "127",
+    "gender": "男",
+    "className": "2024通信工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "128",
+    "gender": "男",
+    "className": "2024应用物理学1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "129",
+    "gender": "男",
+    "className": "2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "130",
+    "gender": "男",
+    "className": "2024应用物理学1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "131",
+    "gender": "男",
+    "className": "2024应用物理学1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "132",
+    "gender": "男",
+    "className": "2024应用物理学2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "133",
+    "gender": "男",
+    "className": "2024应用物理学2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "134",
+    "gender": "男",
+    "className": "2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "136",
+    "gender": "男",
+    "className": "2024应用物理学2班 / 2024应用物理学3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "201",
+    "gender": "男",
+    "className": "2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "202",
+    "gender": "男",
+    "className": "2024电子信息工程2班 / 2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "203",
+    "gender": "男",
+    "className": "2024应用物理学1班 / 2024应用物理学3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "204",
+    "gender": "男",
+    "className": "2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "205",
+    "gender": "男",
+    "className": "2024应用物理学4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "206",
+    "gender": "男",
+    "className": "2024应用物理学4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "209",
+    "gender": "男",
+    "className": "2024电子信息工程1班 / 2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "210",
+    "gender": "男",
+    "className": "2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "211",
+    "gender": "男",
+    "className": "2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "212",
+    "gender": "男",
+    "className": "2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "213",
+    "gender": "男",
+    "className": "2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "214",
+    "gender": "男",
+    "className": "2024自动化1班 / 2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "215",
+    "gender": "男",
+    "className": "2024电子信息工程2班 / 2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "216",
+    "gender": "男",
+    "className": "2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "217",
+    "gender": "男",
+    "className": "2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "218",
+    "gender": "男",
+    "className": "2024自动化2班 / 2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "219",
+    "gender": "男",
+    "className": "2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "220",
+    "gender": "男",
+    "className": "2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "222",
+    "gender": "男",
+    "className": "2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "223",
+    "gender": "男",
+    "className": "2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "224",
+    "gender": "男",
+    "className": "2024自动化3班 / 2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "225",
+    "gender": "男",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "226",
+    "gender": "男",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "227",
+    "gender": "男",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "228",
+    "gender": "男",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "305",
+    "gender": "男",
+    "className": "2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "401",
+    "gender": "男",
+    "className": "2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "404",
+    "gender": "男",
+    "className": "2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "413",
+    "gender": "男",
+    "className": "2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY15（原5栋）",
+    "dorm": "429",
+    "gender": "男",
+    "className": "2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY21（原9栋）",
+    "dorm": "111",
+    "gender": "男",
+    "className": "2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "126",
+    "gender": "男",
+    "className": "2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "202",
+    "gender": "男",
+    "className": "2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "301",
+    "gender": "男",
+    "className": "2024通信工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "303",
+    "gender": "男",
+    "className": "2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "314",
+    "gender": "男",
+    "className": "2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "318",
+    "gender": "男",
+    "className": "2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "321",
+    "gender": "男",
+    "className": "2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "323",
+    "gender": "男",
+    "className": "2024应用物理学3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "324",
+    "gender": "男",
+    "className": "2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "326",
+    "gender": "男",
+    "className": "2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "327",
+    "gender": "男",
+    "className": "2024通信工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "328",
+    "gender": "男",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "329",
+    "gender": "男",
+    "className": "2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "333",
+    "gender": "男",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "335",
+    "gender": "男",
+    "className": "2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "404",
+    "gender": "男",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "406",
+    "gender": "男",
+    "className": "2024通信工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "408",
+    "gender": "男",
+    "className": "2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "420",
+    "gender": "男",
+    "className": "2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "421",
+    "gender": "男",
+    "className": "2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "427",
+    "gender": "男",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "503",
+    "gender": "男",
+    "className": "2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY23（原11栋）",
+    "dorm": "524",
+    "gender": "男",
+    "className": "2024通信工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY24（原12栋）",
+    "dorm": "301",
+    "gender": "男",
+    "className": "2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY24（原12栋）",
+    "dorm": "306",
+    "gender": "男",
+    "className": "2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY24（原12栋）",
+    "dorm": "316",
+    "gender": "男",
+    "className": "2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY24（原12栋）",
+    "dorm": "502",
+    "gender": "男",
+    "className": "2024通信工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY24（原12栋）",
+    "dorm": "503",
+    "gender": "男",
+    "className": "2024通信工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "西园",
+    "building": "XY24（原12栋）",
+    "dorm": "603",
+    "gender": "男",
+    "className": "2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY11（原13D栋）",
+    "dorm": "4-406",
+    "gender": "女",
+    "className": "2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY11（原13D栋）",
+    "dorm": "4-407",
+    "gender": "女",
+    "className": "2024电子信息工程2班 / 2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY11（原13D栋）",
+    "dorm": "4-408",
+    "gender": "女",
+    "className": "2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY11（原13D栋）",
+    "dorm": "4-409",
+    "gender": "女",
+    "className": "2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY11（原13D栋）",
+    "dorm": "4-410",
+    "gender": "女",
+    "className": "2024电子信息工程 3班 / 2024电子信息工程4班 / 2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY11（原13D栋）",
+    "dorm": "4-411",
+    "gender": "女",
+    "className": "2024电子信息工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY11（原13D栋）",
+    "dorm": "4-412",
+    "gender": "女",
+    "className": "2024电子信息工程2班 / 2024电子信息工程1班 / 2024电子信息工程3班 / 2024电子信息工程4班 / 2024电子信息工程 3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY11（原13D栋）",
+    "dorm": "4-413",
+    "gender": "女",
+    "className": "2024电子信息工程3班 / 2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY11（原13D栋）",
+    "dorm": "4-414",
+    "gender": "女",
+    "className": "2024电子信息工程4班 / 2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY11（原13D栋）",
+    "dorm": "4-415",
+    "gender": "女",
+    "className": "2024应用物理学2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY11（原13D栋）",
+    "dorm": "4-416",
+    "gender": "女",
+    "className": "2024电子信息工程2班 / 2024电子信息工程3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-501",
+    "gender": "女",
+    "className": "2024应用物理学4班 / 2024应用物理学3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-502",
+    "gender": "女",
+    "className": "2024应用物理学2班 / 2024应用物理学3班 / 2024应用物理学4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-503",
+    "gender": "女",
+    "className": "2024电子信息工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-504",
+    "gender": "女",
+    "className": "2024电子信息工程1班 / 2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-505",
+    "gender": "女",
+    "className": "2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-506",
+    "gender": "女",
+    "className": "2024电子信息工程4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-507",
+    "gender": "女",
+    "className": "2024电子信息工程7班 / 2024通信工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-508",
+    "gender": "女",
+    "className": "2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-509",
+    "gender": "女",
+    "className": "2024自动化4班 / 2024自动化1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-510",
+    "gender": "女",
+    "className": "2024自动化4班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-511",
+    "gender": "女",
+    "className": "2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-512",
+    "gender": "女",
+    "className": "2024自动化3班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-513",
+    "gender": "女",
+    "className": "2024自动化2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-514",
+    "gender": "女",
+    "className": "2024通信工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-515",
+    "gender": "女",
+    "className": "2024通信工程1班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-516",
+    "gender": "女",
+    "className": "2024通信工程1班 / 2024通信工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-517",
+    "gender": "女",
+    "className": "2024通信工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-518",
+    "gender": "女",
+    "className": "2024通信工程2班"
+  },
+  {
+    "grade": "2024级",
+    "campus": "东园",
+    "building": "DY14（原13A栋）",
+    "dorm": "1-519",
+    "gender": "女",
+    "className": "2024通信工程2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "104",
+    "gender": "男",
+    "className": "2025电子信息工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "110",
+    "gender": "男",
+    "className": "2025电子信息工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "112",
+    "gender": "男",
+    "className": "2025电子信息工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "215",
+    "gender": "男",
+    "className": "2025电子信息工程1班；2025电子信息工程2班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "217",
+    "gender": "男",
+    "className": "2025电子信息工程2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "301",
+    "gender": "男",
+    "className": "2025电子信息工程2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "302",
+    "gender": "男",
+    "className": "2025电子信息工程2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "304",
+    "gender": "男",
+    "className": "2025电子信息工程2班；2025电子信息工程3班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "305",
+    "gender": "男",
+    "className": "2025电子信息工程3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "306",
+    "gender": "男",
+    "className": "2025电子信息工程3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "307",
+    "gender": "男",
+    "className": "2025电子信息工程3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "308",
+    "gender": "男",
+    "className": "2025电子信息工程3班；2025电子信息工程4班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "309",
+    "gender": "男",
+    "className": "2025电子信息工程4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "310",
+    "gender": "男",
+    "className": "2025电子信息工程4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "311",
+    "gender": "男",
+    "className": "2025电子信息工程4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "312",
+    "gender": "男",
+    "className": "2025电子信息工程5班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "313",
+    "gender": "男",
+    "className": "2025电子信息工程5班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "314",
+    "gender": "男",
+    "className": "2025电子信息工程5班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "512",
+    "gender": "男",
+    "className": "2025电子信息工程5班；2025电子信息工程6班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "601",
+    "gender": "男",
+    "className": "2025电子信息工程6班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "602",
+    "gender": "男",
+    "className": "2025电子信息工程6班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY03（原24栋）",
+    "dorm": "604",
+    "gender": "男",
+    "className": "2025电子信息工程6班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "103",
+    "gender": "男",
+    "className": "2025电子信息工程6班；2025通信工程1班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "110",
+    "gender": "男",
+    "className": "2025通信工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "112",
+    "gender": "男",
+    "className": "2025通信工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "118",
+    "gender": "男",
+    "className": "2025通信工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "119",
+    "gender": "男",
+    "className": "2025通信工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "120",
+    "gender": "男",
+    "className": "2025通信工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "121",
+    "gender": "男",
+    "className": "2025通信工程1班；2025通信工程2班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "123",
+    "gender": "男",
+    "className": "2025通信工程2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "201",
+    "gender": "男",
+    "className": "2025通信工程2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "202",
+    "gender": "男",
+    "className": "2025通信工程2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "203",
+    "gender": "男",
+    "className": "2025通信工程2班；2025通信工程3班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "204",
+    "gender": "男",
+    "className": "2025通信工程3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "205",
+    "gender": "男",
+    "className": "2025通信工程3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "207",
+    "gender": "男",
+    "className": "2025通信工程3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "208",
+    "gender": "男",
+    "className": "2025通信工程3班；2025通信工程4班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "209",
+    "gender": "男",
+    "className": "2025通信工程4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "210",
+    "gender": "男",
+    "className": "2025通信工程4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "211",
+    "gender": "男",
+    "className": "2025通信工程4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "212",
+    "gender": "男",
+    "className": "2025应用物理学1班；2025通信工程4班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "213",
+    "gender": "男",
+    "className": "2025应用物理学1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "214",
+    "gender": "男",
+    "className": "2025应用物理学1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "215",
+    "gender": "男",
+    "className": "2025应用物理学1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "216",
+    "gender": "男",
+    "className": "2025应用物理学1班；2025应用物理学2班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "217",
+    "gender": "男",
+    "className": "2025应用物理学2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "302",
+    "gender": "男",
+    "className": "2025应用物理学2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "303",
+    "gender": "男",
+    "className": "2025应用物理学2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "304",
+    "gender": "男",
+    "className": "2025应用物理学2班；2025应用物理学3班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "305",
+    "gender": "男",
+    "className": "2025应用物理学3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "306",
+    "gender": "男",
+    "className": "2025应用物理学3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "307",
+    "gender": "男",
+    "className": "2025应用物理学3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "314",
+    "gender": "男",
+    "className": "2025应用物理学3班；2025电子信息工程1班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "319",
+    "gender": "男",
+    "className": "2025自动化1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "321",
+    "gender": "男",
+    "className": "2025自动化1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "323",
+    "gender": "男",
+    "className": "2025自动化1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "503",
+    "gender": "男",
+    "className": "2025自动化1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "516",
+    "gender": "男",
+    "className": "2025自动化1班；2025自动化2班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "521",
+    "gender": "男",
+    "className": "2025自动化2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "523",
+    "gender": "男",
+    "className": "2025自动化2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "601",
+    "gender": "男",
+    "className": "2025自动化2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "602",
+    "gender": "男",
+    "className": "2025自动化2班；2025自动化3班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "603",
+    "gender": "男",
+    "className": "2025自动化3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "604",
+    "gender": "男",
+    "className": "2025自动化3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "605",
+    "gender": "男",
+    "className": "2025自动化3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "606",
+    "gender": "男",
+    "className": "2025自动化3班；2025自动化4班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "607",
+    "gender": "男",
+    "className": "2025自动化4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "608",
+    "gender": "男",
+    "className": "2025自动化4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "609",
+    "gender": "男",
+    "className": "2025自动化4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY04（原25栋）",
+    "dorm": "610",
+    "gender": "男",
+    "className": "2025自动化4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY06（原23栋）",
+    "dorm": "209",
+    "gender": "男",
+    "className": "2025电子信息工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY16（原16栋）",
+    "dorm": "107",
+    "gender": "男",
+    "className": "2025电子信息工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "1-602B",
+    "gender": "女",
+    "className": "2025电子信息工程1班；2025电子信息工程2班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "1-602C",
+    "gender": "女",
+    "className": "2025电子信息工程2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-102C",
+    "gender": "女",
+    "className": "2025电子信息工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-102D",
+    "gender": "女",
+    "className": "2025电子信息工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-102E",
+    "gender": "女",
+    "className": "2025电子信息工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-201A",
+    "gender": "女",
+    "className": "2025电子信息工程2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-201B",
+    "gender": "女",
+    "className": "2025电子信息工程2班；2025电子信息工程3班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-201C",
+    "gender": "女",
+    "className": "2025电子信息工程3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-201D",
+    "gender": "女",
+    "className": "2025电子信息工程3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-201E",
+    "gender": "女",
+    "className": "2025电子信息工程3班；2025电子信息工程4班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-202A",
+    "gender": "女",
+    "className": "2025电子信息工程4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-202B",
+    "gender": "女",
+    "className": "2025电子信息工程4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-202C",
+    "gender": "女",
+    "className": "2025电子信息工程4班；2025电子信息工程5班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-202D",
+    "gender": "女",
+    "className": "2025电子信息工程5班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-202E",
+    "gender": "女",
+    "className": "2025电子信息工程5班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-301A",
+    "gender": "女",
+    "className": "2025电子信息工程6班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-301B",
+    "gender": "女",
+    "className": "2025电子信息工程6班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-301C",
+    "gender": "女",
+    "className": "2025电子信息工程6班；2025通信工程1班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-301D",
+    "gender": "女",
+    "className": "2025通信工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-301E",
+    "gender": "女",
+    "className": "2025通信工程1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-302A",
+    "gender": "女",
+    "className": "2025通信工程1班；2025通信工程2班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-302B",
+    "gender": "女",
+    "className": "2025通信工程2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-302C",
+    "gender": "女",
+    "className": "2025通信工程2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-302D",
+    "gender": "女",
+    "className": "2025通信工程2班；2025通信工程3班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-302E",
+    "gender": "女",
+    "className": "2025通信工程3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-401A",
+    "gender": "女",
+    "className": "2025通信工程3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-401B",
+    "gender": "女",
+    "className": "2025通信工程4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-401C",
+    "gender": "女",
+    "className": "2025通信工程4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-401D",
+    "gender": "女",
+    "className": "2025通信工程4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-401E",
+    "gender": "女",
+    "className": "2025应用物理学1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-402A",
+    "gender": "女",
+    "className": "2025应用物理学1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-402B",
+    "gender": "女",
+    "className": "2025应用物理学1班；2025应用物理学2班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-402D",
+    "gender": "女",
+    "className": "2025应用物理学2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-402E",
+    "gender": "女",
+    "className": "2025应用物理学2班；2025应用物理学3班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-501A",
+    "gender": "女",
+    "className": "2025应用物理学3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-501B",
+    "gender": "女",
+    "className": "2025应用物理学3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-501C",
+    "gender": "女",
+    "className": "2025自动化1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-501D",
+    "gender": "女",
+    "className": "2025自动化1班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-501E",
+    "gender": "女",
+    "className": "2025自动化1班；2025自动化2班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-502A",
+    "gender": "女",
+    "className": "2025自动化2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-502B",
+    "gender": "女",
+    "className": "2025自动化2班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-502C",
+    "gender": "女",
+    "className": "2025自动化3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-502D",
+    "gender": "女",
+    "className": "2025自动化3班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-502E",
+    "gender": "女",
+    "className": "2025自动化3班；2025自动化4班（混住）"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-601A",
+    "gender": "女",
+    "className": "2025自动化4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-601B",
+    "gender": "女",
+    "className": "2025自动化4班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-601C",
+    "gender": "女",
+    "className": "2025电子信息工程5班"
+  },
+  {
+    "grade": "2025级",
+    "campus": "东园",
+    "building": "DY27（原2栋）",
+    "dorm": "2-601D",
+    "gender": "女",
+    "className": "2025自动化4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "208",
+    "gender": "男",
+    "className": "2026电子信息工程1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "209",
+    "gender": "男",
+    "className": "2026电子信息工程1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "210",
+    "gender": "男",
+    "className": "2026电子信息工程1班 / 2026电子信息工程2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "211",
+    "gender": "男",
+    "className": "2026电子信息工程2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "212",
+    "gender": "男",
+    "className": "2026电子信息工程2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "213",
+    "gender": "男",
+    "className": "2026电子信息工程2班 / 2026电子信息工程3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "214",
+    "gender": "男",
+    "className": "2026电子信息工程3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "215",
+    "gender": "男",
+    "className": "2026电子信息工程3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "216",
+    "gender": "男",
+    "className": "2026电子信息工程4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "217",
+    "gender": "男",
+    "className": "2026电子信息工程4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "218",
+    "gender": "男",
+    "className": "2026电子信息工程4班 / 2026电子信息工程5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "219",
+    "gender": "男",
+    "className": "2026电子信息工程5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "220",
+    "gender": "男",
+    "className": "2026电子信息工程5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "221",
+    "gender": "男",
+    "className": "2026电子信息工程5班 / 2026电子信息工程7班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "222",
+    "gender": "男",
+    "className": "2026电子信息工程7班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "223",
+    "gender": "男",
+    "className": "2026电子信息工程7班 / 2026电子信息工程8班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "224",
+    "gender": "男",
+    "className": "2026电子信息工程8班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "225",
+    "gender": "男",
+    "className": "2026电子信息工程8班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "226",
+    "gender": "男",
+    "className": "2026电子信息工程8班 / 2026通信4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "301",
+    "gender": "男",
+    "className": "2026通信4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "302",
+    "gender": "男",
+    "className": "2026通信4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "303",
+    "gender": "男",
+    "className": "2026通信4班 / 2026通信5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "304",
+    "gender": "男",
+    "className": "2026通信5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "305",
+    "gender": "男",
+    "className": "2026通信5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "306",
+    "className": "2026应用应用物理学学1班",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "307",
+    "gender": "男",
+    "className": "2026应用应用物理学学1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "308",
+    "gender": "男",
+    "className": "2026应用应用物理学学1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "309",
+    "gender": "男",
+    "className": "2026应用应用物理学学1班 / 2026应用应用物理学学2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "310",
+    "gender": "男",
+    "className": "2026应用应用物理学学2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "311",
+    "gender": "男",
+    "className": "2026应用应用物理学学2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "312",
+    "gender": "男",
+    "className": "2026应用应用物理学学2班 / 2026应用应用物理学学3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "313",
+    "gender": "男",
+    "className": "2026应用应用物理学学3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "314",
+    "gender": "男",
+    "className": "2026应用应用物理学学3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "315",
+    "gender": "男",
+    "className": "2026应用应用物理学学3班 / 2026应用应用物理学学4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "316",
+    "gender": "男",
+    "className": "2026应用应用物理学学4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "317",
+    "gender": "男",
+    "className": "2026应用应用物理学学4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "318",
+    "gender": "男",
+    "className": "2026应用应用物理学学4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "319",
+    "gender": "男",
+    "className": "2026自动化1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "320",
+    "gender": "男",
+    "className": "2026自动化1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "321",
+    "gender": "男",
+    "className": "2026自动化1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "322",
+    "gender": "男",
+    "className": "2026自动化1班 / 2026自动化2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "323",
+    "gender": "男",
+    "className": "2026自动化2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "324",
+    "gender": "男",
+    "className": "2026自动化2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "325",
+    "gender": "男",
+    "className": "2026自动化2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "326",
+    "gender": "男",
+    "className": "2026自动化2班 / 2026自动化3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "401",
+    "gender": "男",
+    "className": "2026自动化3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "402",
+    "gender": "男",
+    "className": "2026自动化3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "403",
+    "gender": "男",
+    "className": "2026自动化3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "404",
+    "gender": "男",
+    "className": "2026自动化3班 / 2026自动化4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "405",
+    "gender": "男",
+    "className": "2026自动化4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "406",
+    "gender": "男",
+    "className": "2026自动化4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "407",
+    "gender": "男",
+    "className": "2026自动化4班 / 2026自动化5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "408",
+    "gender": "男",
+    "className": "2026自动化5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "409",
+    "gender": "男",
+    "className": "2026自动化5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "410",
+    "gender": "男",
+    "className": "2026自动化5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "411",
+    "gender": "男",
+    "className": "2026自动化5班 / 2026自动化6班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "412",
+    "gender": "男",
+    "className": "2026自动化6班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "413",
+    "gender": "男",
+    "className": "2026自动化6班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "414",
+    "gender": "男",
+    "className": "2026自动化6班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY04（原19）",
+    "dorm": "415",
+    "gender": "男",
+    "className": "2026自动化6班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY15（原05）",
+    "dorm": "103",
+    "gender": "男",
+    "className": "2026通信1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY15（原05）",
+    "dorm": "104",
+    "gender": "男",
+    "className": "2026通信1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY15（原05）",
+    "dorm": "208",
+    "gender": "男",
+    "className": "2026通信1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY21（原09）",
+    "dorm": "104",
+    "gender": "男",
+    "className": "2026电子信息工程6班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY21（原09）",
+    "dorm": "106",
+    "gender": "男",
+    "className": "2026电子信息工程6班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY21（原09）",
+    "dorm": "110",
+    "gender": "男",
+    "className": "2026电子信息工程6班 / 2026通信3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY21（原09）",
+    "dorm": "113",
+    "gender": "男",
+    "className": "2026通信3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY21（原09）",
+    "dorm": "117",
+    "gender": "男",
+    "className": "2026通信3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY21（原09）",
+    "dorm": "124",
+    "gender": "男",
+    "className": "2026通信3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY23（原11）",
+    "dorm": "515",
+    "gender": "男",
+    "className": "2026通信2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY23（原11）",
+    "dorm": "526",
+    "gender": "男",
+    "className": "2026通信2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY23（原11）",
+    "dorm": "615",
+    "gender": "男",
+    "className": "2026通信2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY23（原11）",
+    "dorm": "622",
+    "gender": "男",
+    "className": "2026通信2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "321",
+    "gender": "女",
+    "className": "2026电子信息工程1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "322",
+    "gender": "女",
+    "className": "2026电子信息工程1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "323",
+    "gender": "女",
+    "className": "2026电子信息工程1班 / 2026电子信息工程2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "324",
+    "gender": "女",
+    "className": "2026电子信息工程2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "401",
+    "gender": "女",
+    "className": "2026电子信息工程2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "402",
+    "gender": "女",
+    "className": "2026电子信息工程2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "403",
+    "gender": "女",
+    "className": "2026电子信息工程3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "404",
+    "gender": "女",
+    "className": "2026电子信息工程3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "405",
+    "gender": "女",
+    "className": "2026电子信息工程3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "406",
+    "gender": "女",
+    "className": "2026电子信息工程3班 / 2026电子信息工程4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "407",
+    "gender": "女",
+    "className": "2026电子信息工程4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "408",
+    "gender": "女",
+    "className": "2026电子信息工程4班 / 2026电子信息工程5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "409",
+    "gender": "女",
+    "className": "2026电子信息工程5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "410",
+    "gender": "女",
+    "className": "2026电子信息工程5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "411",
+    "gender": "女",
+    "className": "2026电子信息工程5班 / 2026电子信息工程6班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "412",
+    "gender": "女",
+    "className": "2026电子信息工程6班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "413",
+    "gender": "女",
+    "className": "2026电子信息工程6班 / 2026电子信息工程7班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "414",
+    "gender": "女",
+    "className": "2026电子信息工程7班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "415",
+    "gender": "女",
+    "className": "2026电子信息工程7班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "416",
+    "gender": "女",
+    "className": "2026电子信息工程7班 / 2026电子信息工程8班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "417",
+    "gender": "女",
+    "className": "2026电子信息工程8班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "418",
+    "gender": "女",
+    "className": "2026电子信息工程8班 / 2026通信1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "419",
+    "gender": "女",
+    "className": "2026通信1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "420",
+    "gender": "女",
+    "className": "2026通信1班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "421",
+    "gender": "女",
+    "className": "2026通信1班 / 2026通信2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "422",
+    "gender": "女",
+    "className": "2026通信2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "423",
+    "gender": "女",
+    "className": "2026通信2班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "424",
+    "gender": "女",
+    "className": "2026通信2班 / 2026通信3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "501",
+    "gender": "女",
+    "className": "2026通信3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "502",
+    "gender": "女",
+    "className": "2026通信3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "503",
+    "gender": "女",
+    "className": "2026通信3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "504",
+    "gender": "女",
+    "className": "2026通信3班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "505",
+    "gender": "女",
+    "className": "2026通信3班 / 2026通信4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "506",
+    "gender": "女",
+    "className": "2026通信4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "507",
+    "gender": "女",
+    "className": "2026通信4班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "508",
+    "gender": "女",
+    "className": "2026通信4班 / 2026通信5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "509",
+    "gender": "女",
+    "className": "2026通信5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "510",
+    "gender": "女",
+    "className": "2026通信5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "511",
+    "gender": "女",
+    "className": "2026通信5班"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "512",
+    "className": "2026级新生宿舍",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "513",
+    "className": "2026级新生宿舍",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "514",
+    "className": "2026级新生宿舍",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "515",
+    "className": "2026级新生宿舍",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "516",
+    "className": "2026自动化1班",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "517",
+    "className": "2026自动化1班 / 2026自动化2班",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "518",
+    "className": "2026自动化2班",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "519",
+    "className": "2026自动化3班",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "520",
+    "className": "2026自动化3班 / 2026自动化4班",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "521",
+    "className": "2026自动化4班 / 2026自动化5班",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "522",
+    "className": "2026自动化5班 / 2026自动化6班",
+    "gender": "待确认"
+  },
+  {
+    "grade": "2026级",
+    "campus": "西园",
+    "building": "XY02（原21）",
+    "dorm": "523",
+    "className": "2026自动化6班",
+    "gender": "待确认"
+  }
+]
