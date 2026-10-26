@@ -38,5 +38,5 @@ test('v2 migration discards legacy sessions and preserves business data', (t) =>
       .all()
       .some((c) => c.name === 'csrf'),
   );
-  assert.equal(db.prepare('PRAGMA user_version').get().user_version, 3);
+  assert.equal(db.prepare('PRAGMA user_version').get().user_version, 4);
 });

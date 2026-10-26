@@ -11,9 +11,13 @@ const state = {
   saving: false,
   dirty: false,
   users: [],
+  checkedIds: new Set(),
+  statusLoading: false,
+  statusTicket: 0,
+  importContent: null,
   rows: { history: [], missing: [] },
   pages: { history: 1, missing: 1, audit: 1 },
-  sizes: { history: 10, missing: 10, audit: 10 },
+  sizes: { history: 10, missing: 10, audit: 10, dorms: 10 },
   tickets: { history: 0, missing: 0, audit: 0 },
   filters: { history: {}, missing: {} },
 };
@@ -123,10 +127,53 @@ function dormCascade(step = 0) {
     options($(controls[i]), values, ['请选择年级', '请选择类型', '请选择楼栋', '请选择宿舍'][i]);
     $(controls[i]).disabled = i > 0 && !$(controls[i - 1]).value;
   }
+  renderDormOptions();
   const d = state.boot.dorms.find((d) => d.id === Number($('dorm-select').value));
   $('dorm-summary').textContent = d
     ? `${d.campus} · ${d.building} · ${d.dorm} · ${d.gender} · ${d.className}`
     : '请选择年级、类型、楼栋和宿舍。';
+}
+function renderDormOptions() {
+  const select = $('dorm-select'),
+    selected = select.value;
+  const rooms = state.boot.dorms.filter(
+    (d) =>
+      d.grade === $('dorm-grade').value &&
+      d.gender === $('dorm-gender').value &&
+      d.building === $('dorm-building').value &&
+      (state.editing || !state.checkedIds.has(d.id)),
+  );
+  const buildingSelected = !!$('dorm-building').value;
+  options(
+    select,
+    rooms.map((d) => ({ value: d.id, label: `${d.dorm} · ${d.className}` })),
+    state.statusLoading
+      ? '正在加载可选宿舍…'
+      : buildingSelected && !rooms.length
+        ? '本周该楼栋所选类型宿舍已全部检查'
+        : '请选择宿舍',
+  );
+  if (rooms.some((d) => String(d.id) === selected)) select.value = selected;
+  select.disabled = !buildingSelected || state.statusLoading || !rooms.length;
+}
+async function refreshInspectionStatus() {
+  const ticket = ++state.statusTicket;
+  const periodId = $('period-select').value,
+    week = $('inspection-week').value;
+  if (!periodId || !week) return;
+  state.statusLoading = true;
+  state.checkedIds.clear();
+  renderDormOptions();
+  try {
+    const result = await api(`/inspection-status?period=${periodId}&week=${week}`);
+    if (ticket !== state.statusTicket || !state.auth) return;
+    state.checkedIds = new Set(result.checkedIds);
+    state.statusLoading = false;
+    dormCascade(4);
+  } catch (error) {
+    if (ticket !== state.statusTicket) return;
+    throw Error('可选宿舍加载失败，请重新进入现场检查页面。' + error.message, { cause: error });
+  }
 }
 function selectDorm(d) {
   dormCascade();
@@ -303,6 +350,7 @@ function resetInspection() {
   $('inspection-title').textContent = '新增检查记录';
   state.dirty = false;
   updateSaveButton();
+  guard(refreshInspectionStatus);
 }
 async function saveInspection(event) {
   event.preventDefault();
@@ -330,6 +378,10 @@ async function saveInspection(event) {
       data: payload,
     });
     resetInspection();
+    $('inspection-week').value = payload.week;
+    $('inspection-date').value = payload.date;
+    selectDorm(state.boot.dorms.find((d) => d.id === payload.dormId));
+    await refreshInspectionStatus();
     await switchTab('history');
     notice('检查记录已保存。');
   } finally {
@@ -356,7 +408,18 @@ function makeFilters(kind) {
       weekOptions(select, kind === 'history');
       select.value = values.week ?? (kind === 'missing' ? currentWeek() : '');
     } else
-      options(select, key === 'level' ? ['优秀', '良好', '合格', '不合格'] : unique(key), '全部');
+      options(
+        select,
+        key === 'level'
+          ? ['优秀', '良好', '合格', '不合格']
+          : unique(
+              key,
+              kind === 'history'
+                ? [...state.boot.dorms, ...(state.boot.historyDorms || [])]
+                : state.boot.dorms,
+            ),
+        '全部',
+      );
     if (key !== 'week') select.value = values[key] || '';
     select.addEventListener('change', () => guard(() => loadList(kind, 1)));
     label.append(select);
@@ -593,6 +656,20 @@ async function switchTab(tab) {
   notice('');
   if (['history', 'missing'].includes(tab)) await loadList(tab, state.pages[tab]);
   if (tab === 'admin') await loadAdmin();
+  if (tab === 'inspect') {
+    const latest = await api('/bootstrap');
+    const previous = ['dorm-grade', 'dorm-gender', 'dorm-building', 'dorm-select'].map(
+      (id) => $(id).value,
+    );
+    state.boot.dorms = latest.dorms;
+    dormCascade();
+    ['dorm-grade', 'dorm-gender', 'dorm-building', 'dorm-select'].forEach((id, i) => {
+      if ([...$(id).options].some((option) => option.value === previous[i]))
+        $(id).value = previous[i];
+      dormCascade(i + 1);
+    });
+    await refreshInspectionStatus();
+  }
 }
 async function boot() {
   state.boot = await api('/bootstrap');
@@ -614,6 +691,7 @@ async function boot() {
   await switchTab('inspect');
 }
 async function loadAdmin() {
+  await loadDormManagement();
   state.users = await api('/admin/users');
   const body = $('users-body');
   body.replaceChildren();
@@ -632,6 +710,55 @@ async function loadAdmin() {
   }
   renderPeriods();
   await loadAudit(state.pages.audit);
+}
+let dormListTicket = 0,
+  dormListPage = 1;
+async function loadDormManagement(page = 1) {
+  const ticket = ++dormListTicket;
+  const query = new URLSearchParams({
+    keyword: $('dorm-search').value,
+    page,
+    pageSize: state.sizes.dorms,
+  });
+  const result = await api('/admin/dorms?' + query);
+  if (ticket !== dormListTicket || !state.auth) return;
+  dormListPage = result.page;
+  $('dorms-body').replaceChildren();
+  for (const dorm of result.items) {
+    const tr = node('tr');
+    tr.dataset.dormId = dorm.id;
+    for (const field of ['grade', 'campus', 'building', 'dorm', 'gender', 'className'])
+      tr.append(cell(dorm[field]));
+    const action = node('td');
+    action.append(
+      button('编辑宿舍', () => {
+        const form = $('dorm-edit-form');
+        for (const field of [
+          'id',
+          'version',
+          'grade',
+          'campus',
+          'building',
+          'dorm',
+          'gender',
+          'className',
+        ])
+          form.elements[field].value = dorm[field];
+        $('dorm-edit-error').textContent = '';
+        $('dorm-edit-dialog').showModal();
+      }),
+    );
+    tr.append(action);
+    $('dorms-body').append(tr);
+  }
+  if (!result.items.length) {
+    const tr = node('tr'),
+      td = cell('没有符合条件的宿舍');
+    td.colSpan = 7;
+    tr.append(td);
+    $('dorms-body').append(tr);
+  }
+  renderPager('dorms', result, loadDormManagement);
 }
 function renderPeriods() {
   $('period-list').replaceChildren();
@@ -686,6 +813,8 @@ async function loadAudit(page = 1) {
   const names = {
     login: '登录',
     create_record: '新增记录',
+    update_dorm: '修改宿舍信息',
+    import_dorms: '导入宿舍名单',
     update_record: '修改记录',
     delete_record: '删除记录',
     create_user: '新增账号',
@@ -773,7 +902,14 @@ $('login-form').addEventListener('submit', async (event) => {
 });
 $('inspection-form').addEventListener('submit', (event) => guard(() => saveInspection(event)));
 $('inspection-form').addEventListener('input', () => (state.dirty = true));
-$('inspection-date').addEventListener('change', calculateWeek);
+$('inspection-date').addEventListener('change', () => {
+  calculateWeek();
+  guard(refreshInspectionStatus);
+});
+$('inspection-week').addEventListener('change', () => guard(refreshInspectionStatus));
+window.addEventListener('focus', () => {
+  if (state.auth && state.tab === 'inspect' && !state.saving) guard(refreshInspectionStatus);
+});
 ['dorm-grade', 'dorm-gender', 'dorm-building', 'dorm-select'].forEach((id, i) =>
   $(id).addEventListener('change', () => dormCascade(i + 1)),
 );
@@ -872,6 +1008,117 @@ window.addEventListener('beforeunload', (event) => {
     event.returnValue = '';
   }
 });
+$('dorm-search-form').addEventListener('submit', (event) => {
+  event.preventDefault();
+  guard(() => loadDormManagement());
+});
+$('dorm-edit-form').addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const form = event.currentTarget,
+    submit = form.querySelector('[type=submit]');
+  submit.disabled = true;
+  $('dorm-edit-error').textContent = '';
+  try {
+    const input = Object.fromEntries(new FormData(form));
+    input.version = Number(input.version);
+    await api('/admin/dorms/' + input.id, { method: 'PUT', data: input });
+    $('dorm-edit-dialog').close();
+    state.boot = await api('/bootstrap');
+    dormCascade();
+    makeFilters('history');
+    makeFilters('missing');
+    await loadDormManagement(dormListPage);
+    notice('宿舍信息已更新；历史检查保留原信息。');
+  } catch (error) {
+    $('dorm-edit-error').textContent = error.message;
+  } finally {
+    submit.disabled = false;
+  }
+});
+let importTicket = 0;
+$('dorm-import-file').addEventListener('change', () => {
+  importTicket++;
+  state.importContent = null;
+  $('confirm-dorm-import').disabled = true;
+  $('dorm-import-summary').textContent = '';
+  $('dorm-import-preview').replaceChildren();
+});
+$('preview-dorm-import').addEventListener('click', () =>
+  guard(async () => {
+    const ticket = ++importTicket;
+    state.importContent = null;
+    $('confirm-dorm-import').disabled = true;
+    $('dorm-import-preview').replaceChildren();
+    const file = $('dorm-import-file').files[0];
+    if (!file || !file.name.toLowerCase().endsWith('.csv') || file.size > 2 * 1024 * 1024)
+      throw Error('请选择2MB以内的CSV UTF-8文件。');
+    $('dorm-import-summary').textContent = '正在检查文件…';
+    try {
+      const content = await file.text();
+      const preview = await api('/admin/dorms/preview', { method: 'POST', data: { content } });
+      if (ticket !== importTicket) return;
+      $('dorm-import-summary').textContent =
+        `共${preview.total}行，新增${preview.added}条，跳过重复${preview.skipped}条。`;
+      const target = $('dorm-import-preview');
+      if (preview.errors.length) {
+        for (const error of preview.errors.slice(0, 30))
+          target.append(node('p', error, 'error-text'));
+        target.append(
+          node('p', `共${preview.errors.length}处错误，请修改文件后重新上传；尚未写入任何数据。`),
+        );
+        return;
+      }
+      const table = node('table'),
+        head = node('tr'),
+        body = node('tbody');
+      for (const title of ['年级', '校区', '楼栋', '宿舍号', '性别', '班级'])
+        head.append(node('th', title));
+      const thead = node('thead');
+      thead.append(head);
+      table.append(thead, body);
+      for (const row of preview.rows.slice(0, 50)) {
+        const tr = node('tr');
+        for (const field of ['grade', 'campus', 'building', 'dorm', 'gender', 'className'])
+          tr.append(cell(row[field]));
+        body.append(tr);
+      }
+      target.append(table, node('p', '预览最多显示50条，确认后导入全部有效条目。', 'fine'));
+      state.importContent = content;
+      $('confirm-dorm-import').disabled = preview.added === 0;
+    } catch (error) {
+      if (ticket === importTicket) $('dorm-import-summary').textContent = error.message;
+      throw error;
+    }
+  }),
+);
+$('confirm-dorm-import').addEventListener('click', () =>
+  guard(async () => {
+    if (state.importContent === null) return;
+    const content = state.importContent;
+    $('confirm-dorm-import').disabled = true;
+    $('preview-dorm-import').disabled = true;
+    $('dorm-import-file').disabled = true;
+    try {
+      const result = await api('/admin/dorms/import', { method: 'POST', data: { content } });
+      state.importContent = null;
+      const latest = await api('/bootstrap');
+      state.boot.dorms = latest.dorms;
+      dormCascade();
+      makeFilters('history');
+      makeFilters('missing');
+      $('dorm-import-summary').textContent =
+        `导入完成：新增${result.added}条，跳过重复${result.skipped}条。填表和未查宿舍已更新。`;
+      await loadDormManagement();
+      notice('宿舍名单已更新，无需重新部署。');
+    } catch (error) {
+      $('confirm-dorm-import').disabled = false;
+      throw error;
+    } finally {
+      $('preview-dorm-import').disabled = false;
+      $('dorm-import-file').disabled = false;
+    }
+  }),
+);
 (async () => {
   try {
     state.auth = await api('/me');

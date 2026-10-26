@@ -11,6 +11,9 @@ services:
       NODE_ENV: production
       PORT: 3000
       DATA_DIR: /app/storage
+      INITIAL_ADMIN_USERNAME: ${INITIAL_ADMIN_USERNAME:-admin}
+      INITIAL_ADMIN_NAME: ${INITIAL_ADMIN_NAME:-管理员}
+      INITIAL_ADMIN_PASSWORD: ${INITIAL_ADMIN_PASSWORD:-}
     volumes:
       - dorm-data:/app/storage
     read_only: true

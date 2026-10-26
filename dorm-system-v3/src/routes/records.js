@@ -9,10 +9,14 @@ import {
 } from '../services/records.js';
 import { exportCsv } from '../services/export.js';
 import { fail, int } from '../domain.js';
+import { inspectionStatus } from '../services/dorms.js';
 export function recordsRouter(db, auth) {
   const router = Router();
   const query = (req) => new URLSearchParams(req.url.split('?')[1] || '');
   const id = (req) => int(req.params.id, 1, 2147483647, '记录ID');
+  router.get('/inspection-status', (req, res) =>
+    res.json(inspectionStatus(db, query(req).get('period'), query(req).get('week'))),
+  );
   router.get('/records', (req, res) => res.json(listRecords(db, query(req))));
   router.get('/uninspected', (req, res) => res.json(listRecords(db, query(req), true)));
   router.get('/export', (req, res) => exportCsv(db, query(req), res));

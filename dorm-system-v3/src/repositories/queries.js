@@ -40,7 +40,7 @@ export function filters(db, q, uninspected = false) {
   return { where: parts.join(' AND '), args };
 }
 export const recordSelect = `SELECT r.*,d.grade,d.campus,d.building,d.dorm,d.gender,d.className,u.name AS ownerName
-  FROM records r JOIN dorms d ON d.id=r.dorm_id LEFT JOIN users u ON u.id=r.owner_id`;
+  FROM records r JOIN record_dorms d ON d.id=r.id LEFT JOIN users u ON u.id=r.owner_id`;
 export function page(db, select, count, args, q, transform = (x) => x) {
   const size = int(q.get('pageSize') || 10, 1, 100, '每页条数'),
     requested = int(q.get('page') || 1, 1, 10000000, '页码');

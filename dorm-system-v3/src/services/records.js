@@ -68,7 +68,7 @@ export function getRecord(db, id) {
 }
 export function listRecords(db, q, un = false) {
   const f = filters(db, q, un);
-  const base = un ? 'FROM dorms d' : 'FROM records r JOIN dorms d ON d.id=r.dorm_id';
+  const base = un ? 'FROM dorms d' : 'FROM records r JOIN record_dorms d ON d.id=r.id';
   const select = un ? 'SELECT d.* FROM dorms d' : recordSelect;
   return page(
     db,

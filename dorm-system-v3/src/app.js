@@ -29,6 +29,7 @@ export function createApp({ directory, config = configFromEnv() } = {}) {
     res.json({
       criteria,
       dorms: db.prepare('SELECT * FROM dorms ORDER BY grade,building,dorm,id').all(),
+      historyDorms: db.prepare('SELECT DISTINCT grade,gender,building FROM record_dorms').all(),
       periods: db.prepare('SELECT * FROM periods ORDER BY id DESC').all(),
     }),
   );

@@ -50,7 +50,31 @@ export function openStore(directory = process.env.DATA_DIR || resolve(root, 'sto
       db.exec('DELETE FROM sessions; ALTER TABLE sessions DROP COLUMN csrf;');
     });
   }
-  db.exec('PRAGMA user_version=3');
+  // Snapshot the room labels once, so editing the directory never rewrites history.
+  transact(db, () => {
+    if (
+      !db
+        .prepare('PRAGMA table_info(dorms)')
+        .all()
+        .some((column) => column.name === 'version')
+    ) {
+      db.exec('ALTER TABLE dorms ADD COLUMN version INTEGER NOT NULL DEFAULT 1');
+    }
+    db.exec(`CREATE TABLE IF NOT EXISTS record_dorms (
+      id INTEGER PRIMARY KEY REFERENCES records(id) ON DELETE CASCADE,
+      grade TEXT NOT NULL, campus TEXT NOT NULL, building TEXT NOT NULL,
+      dorm TEXT NOT NULL, gender TEXT NOT NULL, className TEXT NOT NULL);
+      INSERT INTO record_dorms SELECT r.id,d.grade,d.campus,d.building,d.dorm,d.gender,d.className
+        FROM records r JOIN dorms d ON d.id=r.dorm_id WHERE NOT EXISTS (SELECT 1 FROM record_dorms s WHERE s.id=r.id);
+      CREATE TRIGGER IF NOT EXISTS record_dorm_insert AFTER INSERT ON records BEGIN
+        INSERT INTO record_dorms SELECT NEW.id,grade,campus,building,dorm,gender,className FROM dorms WHERE id=NEW.dorm_id;
+      END;
+      CREATE TRIGGER IF NOT EXISTS record_dorm_change AFTER UPDATE OF dorm_id ON records WHEN NEW.dorm_id != OLD.dorm_id BEGIN
+        DELETE FROM record_dorms WHERE id=NEW.id;
+        INSERT INTO record_dorms SELECT NEW.id,grade,campus,building,dorm,gender,className FROM dorms WHERE id=NEW.dorm_id;
+      END;
+      PRAGMA user_version=4;`);
+  });
   if (!db.prepare('SELECT count(*) AS n FROM dorms').get().n) {
     const dorms = JSON.parse(
       readFileSync(resolve(root, 'seed/dorms.json'), 'utf8').replace(/^\uFEFF/, ''),
